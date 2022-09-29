@@ -1,3 +1,5 @@
+
+
 body {
     margin: 0;
     padding: 0;
@@ -14,7 +16,16 @@ body {
     position: fixed;
     height: 100vh;
     width: 100vw;
-    grid-area: 1/1/2/2;
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    grid-area: 1 / 1 / 2 / 2;
 }
 
 .container {
@@ -33,5 +44,25 @@ body {
     width: 250px;
     height: 250px;
     margin: 0 auto;
-    margin-top: 50px;
+}
+
+.row-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.my_name {
+    font-size: 3rem;
+    color: white;
+    font-weight: 700;
+    margin: 0;
 }
